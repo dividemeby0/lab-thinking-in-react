@@ -23,6 +23,24 @@
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: column;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+}
+
+.not-stocked {
+  color: red;
 }
